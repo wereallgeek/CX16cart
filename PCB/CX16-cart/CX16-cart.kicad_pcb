@@ -580,7 +580,7 @@
 		(tags "THT DIP DIL PDIP 2.54mm 15.24mm 600mil Socket")
 		(property "Reference" "U1"
 			(at 7.62 -2.33 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "a3cab025-d131-4f54-9627-86a83fdb6ff8")
 			(effects
 				(font
@@ -590,8 +590,8 @@
 			)
 		)
 		(property "Value" "SST39SF040"
-			(at 7.62 40.43 90)
-			(layer "F.Fab")
+			(at 7.62 19.05 180)
+			(layer "F.SilkS")
 			(uuid "42a105ed-3526-4058-b9c3-836e1df7bc27")
 			(effects
 				(font
@@ -793,7 +793,7 @@
 			(uuid "bd3c6933-2922-4773-abc2-e0bc599a6aea")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7.62 19.05 0)
+			(at 7.4322 38.5521 270)
 			(layer "F.Fab")
 			(uuid "a4a9f4c3-09fd-40ff-a0bb-604462c597c1")
 			(effects
@@ -3009,7 +3009,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 1.68 90)
+			(at 3.0203 -0.1821 180)
 			(layer "F.Fab")
 			(uuid "e979a989-c1a5-472e-a47e-c4b97f049715")
 			(effects
@@ -3168,7 +3168,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 1.43 0)
+			(at 1.7054 -1.8078 0)
 			(layer "F.Fab")
 			(uuid "31b17d26-8ac5-4675-9051-771f162af598")
 			(effects
