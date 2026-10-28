@@ -2725,150 +2725,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Jumper:SolderJumper_2_Bridged"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Jumper:Jumper_3_Open"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -2879,7 +2736,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "JP"
-				(at 0 2.032 0)
+				(at -2.54 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2888,8 +2745,8 @@
 					)
 				)
 			)
-			(property "Value" "SolderJumper_2_Bridged"
-				(at 0 -2.54 0)
+			(property "Value" "Jumper_3_Open"
+				(at 0 2.794 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2910,7 +2767,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 -6.35 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2920,8 +2777,8 @@
 					)
 				)
 			)
-			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-				(at 0 -5.08 0)
+			(property "Description" "Jumper, 3-pole, both open"
+				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2931,7 +2788,29 @@
 					)
 				)
 			)
-			(property "ki_keywords" "solder jumper SPST"
+			(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
+				(at 0 -17.78 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
+				(at -1.27 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Jumper SPDT"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2942,7 +2821,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SolderJumper*Bridged*"
+			(property "ki_fp_filters" "Jumper* TestPoint*3Pads* TestPoint*Bridge*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2953,60 +2832,72 @@
 					)
 				)
 			)
-			(symbol "SolderJumper_2_Bridged_0_1"
-				(rectangle
-					(start -0.508 0.508)
-					(end 0.508 -0.508)
+			(symbol "Jumper_3_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
 					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
+				(circle
+					(center 0 0)
+					(radius 0.508)
 					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Open_0_1"
+				(arc
+					(start -2.032 1.016)
+					(mid -1.143 1.3235)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(arc
 					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
+					(mid 1.143 1.3235)
+					(end 2.032 1.016)
 					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -3014,10 +2905,10 @@
 					)
 				)
 			)
-			(symbol "SolderJumper_2_Bridged_1_1"
+			(symbol "Jumper_3_Open_1_1"
 				(pin passive line
 					(at -5.08 0 0)
-					(length 3.81)
+					(length 2.54)
 					(name "A"
 						(effects
 							(font
@@ -3034,9 +2925,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "B"
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3044,6 +2935,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4225,15 +4134,25 @@
 		)
 		(uuid "0c8a2deb-9412-4810-8571-a9595f4f9a08")
 	)
-	(text "JP1 to program the cart\nOnce programmed, cut open \nThen, solder the resistor\n(shut or ~4.7k)"
+	(text "JP1 - write mode\njump 1-2 to program (read-write)\nand 2-3 to use (readonly)"
 		(exclude_from_sim no)
-		(at 245.11 70.104 0)
+		(at 250.952 71.628 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "49fcfb31-1f3e-4c28-8de6-778feaa5adc1")
+	)
+	(text "read-only"
+		(exclude_from_sim no)
+		(at 257.048 85.852 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4e636dc3-0c75-4509-a69f-d7dcbb1d8152")
 	)
 	(text "EEPROM for storing game data"
 		(exclude_from_sim no)
@@ -4254,6 +4173,16 @@
 			)
 		)
 		(uuid "70f6e37c-20a9-4c9b-9c7c-ddbc261528e3")
+	)
+	(text "read/write"
+		(exclude_from_sim no)
+		(at 242.062 86.614 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7a03edfb-b556-4a43-9c9b-f043076f087e")
 	)
 	(text "CX16 software halfcart\n"
 		(exclude_from_sim no)
@@ -4292,12 +4221,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "331e7af4-b674-43f8-b254-ee1f67711be4")
-	)
-	(junction
-		(at 261.62 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "41583080-f924-40db-8850-53efc0131254")
 	)
 	(junction
 		(at 229.87 148.59)
@@ -4609,6 +4532,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 83.82) (xy 261.62 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aaf49d7-8642-4b34-bad2-f50067272f65")
+	)
+	(wire
+		(pts
 			(xy 229.87 148.59) (xy 229.87 151.13)
 		)
 		(stroke
@@ -4669,16 +4602,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 76.2) (xy 261.62 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f2aa8a0-6df7-4e07-9aaa-144db6270b89")
-	)
-	(wire
-		(pts
 			(xy 63.5 124.46) (xy 63.5 128.27)
 		)
 		(stroke
@@ -4709,7 +4632,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 83.82) (xy 273.05 83.82)
+			(xy 250.19 87.63) (xy 250.19 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4726,16 +4649,6 @@
 			(type default)
 		)
 		(uuid "3eb290f9-a67c-484e-b15f-a8219965e6ee")
-	)
-	(wire
-		(pts
-			(xy 261.62 64.77) (xy 261.62 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3feed1cf-7de0-47fa-b7b5-0cb685a78fe5")
 	)
 	(wire
 		(pts
@@ -5099,16 +5012,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 83.82) (xy 261.62 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e27fe39-af0c-491f-a827-701b87580b46")
-	)
-	(wire
-		(pts
 			(xy 63.5 128.27) (xy 63.5 133.35)
 		)
 		(stroke
@@ -5279,7 +5182,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 83.82) (xy 247.65 83.82)
+			(xy 226.06 83.82) (xy 245.11 83.82)
 		)
 		(stroke
 			(width 0)
@@ -6218,12 +6121,12 @@
 		(uuid "94529915-bd18-40ca-82e9-4caff1419c49")
 	)
 	(label "~{ROMWE}"
-		(at 273.05 83.82 180)
+		(at 250.19 100.33 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "94aeb20d-a259-48c3-b068-0e7bc79cb1a2")
 	)
@@ -6498,6 +6401,111 @@
 		(uuid "fbe8876f-cbc2-407f-ab75-d4c8bf7985e5")
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_3_Open")
+		(at 250.19 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "029f00c2-289c-4492-b6ac-ae782afcde17")
+		(property "Reference" "JP1"
+			(at 250.19 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "write_mode"
+			(at 250.19 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical_SMD_Pin1Left"
+			(at 250.19 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, must be assembled with a matching 1.27mm jumper shunt installed on Pin 1 and Pin 2."
+			(at 250.19 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
+			(at 250.19 101.6 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
+			(at 248.92 104.14 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a04c3e99-ad42-45e8-b03a-f5c895b9b095")
+		)
+		(pin "3"
+			(uuid "b6090284-854a-4520-8f89-966989e9611a")
+		)
+		(pin "1"
+			(uuid "8fcbb33e-58d0-43f7-85e5-d86a58e2f4b4")
+		)
+		(instances
+			(project "CX16-cart"
+				(path "/e8c6cf3c-66c8-4c37-84a4-a1d8ccf50583"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 135.89 184.15 0)
 		(unit 1)
@@ -6570,86 +6578,6 @@
 			(project "CX16-cart"
 				(path "/e8c6cf3c-66c8-4c37-84a4-a1d8ccf50583"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 252.73 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0810cbee-b98d-4a16-90d9-909bc824e757")
-		(property "Reference" "JP1"
-			(at 252.73 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "read-write"
-			(at 252.73 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
-			(at 252.73 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 252.73 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c7a04ae4-3ad4-47e0-9dce-cdaf3f8c4248")
-		)
-		(pin "1"
-			(uuid "eaaf8395-74f5-4972-9678-4e7cb96f4d1f")
-		)
-		(instances
-			(project "CX16-cart"
-				(path "/e8c6cf3c-66c8-4c37-84a4-a1d8ccf50583"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -7112,88 +7040,6 @@
 			(project "CX16-cart"
 				(path "/e8c6cf3c-66c8-4c37-84a4-a1d8ccf50583"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 261.62 72.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "2b86d0a8-973a-484a-810f-b6dadeb34c3c")
-		(property "Reference" "ReadOnly1"
-			(at 264.16 71.1199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 264.16 73.6599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 259.842 72.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 261.62 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8481df42-cf5f-4d20-a19d-55a961e0e6ef")
-		)
-		(pin "2"
-			(uuid "63a4d568-5a4c-4055-9e49-d06fcf3857ce")
-		)
-		(instances
-			(project "CX16-cart"
-				(path "/e8c6cf3c-66c8-4c37-84a4-a1d8ccf50583"
-					(reference "ReadOnly1")
 					(unit 1)
 				)
 			)
@@ -7807,7 +7653,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 261.62 64.77 0)
+		(at 261.62 83.82 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7815,10 +7661,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5055c210-e276-4434-96fd-b659c5fd37c0")
 		(property "Reference" "#PWR07"
-			(at 261.62 68.58 0)
+			(at 257.81 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7829,7 +7674,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 261.62 59.69 0)
+			(at 266.7 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7839,7 +7684,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 64.77 0)
+			(at 261.62 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7850,7 +7695,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 64.77 0)
+			(at 261.62 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7861,7 +7706,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 261.62 64.77 0)
+			(at 261.62 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
