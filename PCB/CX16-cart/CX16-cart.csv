@@ -1,7 +1,6 @@
 "Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet","MPN"
 "C1,C2,C3,C4","4","100nF","","","","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","CL21B104KBCNNNC","CL21B104KBCNNNC"
 "C5,C6","2","1uF","","","","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","CL21B105KBFNNNE","CL21B105KBFNNNE"
-"JP1","1","read-write","","","","PCM_SparkFun-Jumper:Jumper_2_NC_Trace","",""
 "R1","1","10k","","","","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","RC0805FR-0710KL","RC0805FR-0710KL"
 "U1","1","SST39SF040","","","","Package_LCC:PLCC-32_11.4x14.0mm_P1.27mm","http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf","SST39SF040-70-4C-NHE"
 "U2","1","74ACT00","","","","Package_SO:SOIC-14_3.9x8.7mm_P1.27mm","SN74ACT00D","SN74ACT00D"
