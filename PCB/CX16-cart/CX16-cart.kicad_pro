@@ -627,6 +627,24 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S5.1",
+          "name": "KLC_S5.1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S3.3",
+          "name": "KLC_S3.3",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -677,7 +695,7 @@
         "uuid": "e8c6cf3c-66c8-4c37-84a4-a1d8ccf50583"
       }
     ],
-    "used_designators": "H1,JP2,R1",
+    "used_designators": "H1,JP1-2,R1",
     "variants": []
   },
   "sheets": [

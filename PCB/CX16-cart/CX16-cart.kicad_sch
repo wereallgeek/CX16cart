@@ -1392,113 +1392,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Auxiliary_Items:Jumper_Shunt"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board no)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "H"
-				(at -2.032 4.064 0)
-				(show_name no)
-				(do_not_autoplace yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_Shunt"
-				(at 0.254 -5.334 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -0.762 0.762 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -7.112 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Jumper or shunt, off-board part"
-				(at 0.254 -8.382 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "jumper shunt "
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Jumper_Shunt_1_1"
-				(rectangle
-					(start -2.54 2.921)
-					(end 2.54 -2.794)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -2.54 -3.429)
-					(end 2.54 -4.064)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.905 -2.794)
-					(end 1.905 -3.429)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "CommanderX16Expansion:CommanderX16Expansion Alt"
 			(pin_names
 				(offset 1.016)
@@ -2972,244 +2865,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_3_Open"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "JP"
-				(at -2.54 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_3_Open"
-				(at 0 2.794 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Jumper, 3-pole, both open"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
-				(at 0 -17.78 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
-				(at -1.27 -20.32 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Jumper SPDT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*3Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Jumper_3_Open_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_3_Open_0_1"
-				(arc
-					(start -2.032 1.016)
-					(mid -1.143 1.3235)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.508) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.143 1.3235)
-					(end 2.032 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_3_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Memory_EEPROM:24LC128"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4116,6 +3771,219 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_SparkFun-Jumper:SolderJumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_SparkFun-Jumper:Jumper_2_NC_Trace"
+				(at -0.254 -4.572 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SparkFun solder jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power global)
 			(pin_numbers
@@ -4381,9 +4249,9 @@
 		)
 		(uuid "0c8a2deb-9412-4810-8571-a9595f4f9a08")
 	)
-	(text "JP1 - write mode\njump 1-2 to program (read-write)\nand 2-3 to use (readonly)"
+	(text "write mode\nJP1 enables read/write\nonce programmed, cut trace JP1"
 		(exclude_from_sim no)
-		(at 250.952 71.628 0)
+		(at 260.604 90.678 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4393,7 +4261,7 @@
 	)
 	(text "read-only"
 		(exclude_from_sim no)
-		(at 257.048 85.852 0)
+		(at 260.35 68.58 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4420,16 +4288,6 @@
 			)
 		)
 		(uuid "70f6e37c-20a9-4c9b-9c7c-ddbc261528e3")
-	)
-	(text "read/write"
-		(exclude_from_sim no)
-		(at 242.062 86.614 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7a03edfb-b556-4a43-9c9b-f043076f087e")
 	)
 	(text "CX16 software halfcart\n"
 		(exclude_from_sim no)
@@ -4458,7 +4316,7 @@
 		(uuid "1aea6661-4855-4ad1-8d11-953f7eeb2ea8")
 	)
 	(junction
-		(at 250.19 90.17)
+		(at 257.81 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e5b4601-b7d0-4a6b-a3bf-5a6bb204da6f")
@@ -4486,12 +4344,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c92cefb-2c15-4a99-9aa3-f7735d5d53d0")
-	)
-	(junction
-		(at 266.7 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f989c42-4bf8-49ef-960a-beb771efba22")
 	)
 	(junction
 		(at 172.72 86.36)
@@ -4791,16 +4643,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 83.82) (xy 266.7 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1aaf49d7-8642-4b34-bad2-f50067272f65")
-	)
-	(wire
-		(pts
 			(xy 229.87 148.59) (xy 229.87 151.13)
 		)
 		(stroke
@@ -4881,6 +4723,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 83.82) (xy 257.81 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "397479c1-810a-40c1-9192-ac4d391ff8a4")
+	)
+	(wire
+		(pts
 			(xy 242.57 124.46) (xy 252.73 124.46)
 		)
 		(stroke
@@ -4888,16 +4740,6 @@
 			(type default)
 		)
 		(uuid "39b01b4d-96dd-461f-b1ab-7aa5ee714660")
-	)
-	(wire
-		(pts
-			(xy 250.19 87.63) (xy 250.19 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e8fcafc-8957-4252-9ec0-2fe6e227ab70")
 	)
 	(wire
 		(pts
@@ -4971,7 +4813,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 90.17) (xy 250.19 100.33)
+			(xy 257.81 83.82) (xy 267.97 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5341,7 +5183,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 90.17) (xy 255.27 90.17)
+			(xy 257.81 83.82) (xy 257.81 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5461,7 +5303,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 83.82) (xy 245.11 83.82)
+			(xy 226.06 83.82) (xy 246.38 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5548,16 +5390,6 @@
 			(type default)
 		)
 		(uuid "ac039934-cd15-4c60-9931-7043dc0f97c0")
-	)
-	(wire
-		(pts
-			(xy 266.7 90.17) (xy 266.7 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac43740c-b71d-4756-976c-de0877bb207c")
 	)
 	(wire
 		(pts
@@ -5861,17 +5693,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 83.82) (xy 269.24 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec30841f-3262-4e23-8295-c26c92b66aea")
-	)
-	(wire
-		(pts
-			(xy 262.89 90.17) (xy 266.7 90.17)
+			(xy 257.81 71.12) (xy 257.81 62.23)
 		)
 		(stroke
 			(width 0)
@@ -6430,12 +6252,12 @@
 		(uuid "94529915-bd18-40ca-82e9-4caff1419c49")
 	)
 	(label "~{ROMWE}"
-		(at 250.19 100.33 90)
+		(at 267.97 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "94aeb20d-a259-48c3-b068-0e7bc79cb1a2")
 	)
@@ -6710,111 +6532,6 @@
 		(uuid "fbe8876f-cbc2-407f-ab75-d4c8bf7985e5")
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_3_Open")
-		(at 250.19 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "029f00c2-289c-4492-b6ac-ae782afcde17")
-		(property "Reference" "JP1"
-			(at 250.19 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "write_mode"
-			(at 250.19 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical_SMD_Pin1Left"
-			(at 250.19 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 3-pole, must be assembled with a matching 1.27mm jumper shunt installed on Pin 1 and Pin 2."
-			(at 250.19 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
-			(at 250.19 101.6 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
-			(at 248.92 104.14 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a04c3e99-ad42-45e8-b03a-f5c895b9b095")
-		)
-		(pin "3"
-			(uuid "b6090284-854a-4520-8f89-966989e9611a")
-		)
-		(pin "1"
-			(uuid "8fcbb33e-58d0-43f7-85e5-d86a58e2f4b4")
-		)
-		(instances
-			(project "CX16-cart"
-				(path "/e8c6cf3c-66c8-4c37-84a4-a1d8ccf50583"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 135.89 184.15 0)
 		(unit 1)
@@ -6937,7 +6654,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS138"
+		(property "Datasheet" "SN74ACT138D"
 			(at 229.87 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -6949,6 +6666,39 @@
 			)
 		)
 		(property "Description" "Decoder 3 to 8 active low outputs"
+			(at 229.87 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 229.87 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 229.87 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SN74ACT138D"
 			(at 229.87 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -7024,7 +6774,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d975d4c-83cc-49b7-b365-0c9e58adeae9")
@@ -7073,6 +6823,28 @@
 			)
 		)
 		(property "Description" "Commander X16 Expansion port alternative symbol"
+			(at 130.81 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 130.81 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
 			(at 130.81 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7317,7 +7089,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "CL21B105KBFNNNE"
 			(at 45.72 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -7339,6 +7111,39 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 45.72 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 45.72 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL21B105KBFNNNE"
+			(at 45.72 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "20377ce7-7eeb-4ae1-8c0d-ee58ee5ba4d0")
 		)
@@ -7349,81 +7154,6 @@
 			(project "CX16-cart"
 				(path "/e8c6cf3c-66c8-4c37-84a4-a1d8ccf50583"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Auxiliary_Items:Jumper_Shunt")
-		(at 242.57 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20cf2555-7764-4c28-b4b2-b66255431fd2")
-		(property "Reference" "SH1"
-			(at 240.538 97.536 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.27mm jumper shunt"
-			(at 246.38 102.1714 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.808 100.838 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 108.712 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "shunt, off-board part for JP1 pins 1-2"
-			(at 242.824 109.982 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "CX16-cart"
-				(path "/e8c6cf3c-66c8-4c37-84a4-a1d8ccf50583"
-					(reference "SH1")
 					(unit 1)
 				)
 			)
@@ -7474,7 +7204,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls00"
+		(property "Datasheet" "SN74ACT00D"
 			(at 217.17 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -7486,6 +7216,39 @@
 			)
 		)
 		(property "Description" "quad 2-input NAND gate"
+			(at 217.17 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 217.17 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 217.17 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SN74ACT00D"
 			(at 217.17 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -7543,6 +7306,86 @@
 				(path "/e8c6cf3c-66c8-4c37-84a4-a1d8ccf50583"
 					(reference "U2")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Jumper:SolderJumper_2_Bridged")
+		(at 248.92 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2efb964c-f2d0-4f81-8c8b-c7dca018c99f")
+		(property "Reference" "JP1"
+			(at 248.92 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "read-write"
+			(at 248.92 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Jumper:Jumper_2_NC_Trace"
+			(at 248.666 88.392 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 248.92 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0700d49b-277d-4b5d-a336-9fc9d37f785d")
+		)
+		(pin "1"
+			(uuid "c2f266d7-d497-4c43-bf9b-37c0b428d1de")
+		)
+		(instances
+			(project "CX16-cart"
+				(path "/e8c6cf3c-66c8-4c37-84a4-a1d8ccf50583"
+					(reference "JP1")
+					(unit 1)
 				)
 			)
 		)
@@ -7668,7 +7511,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls00"
+		(property "Datasheet" "SN74ACT00D"
 			(at 218.44 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -7680,6 +7523,39 @@
 			)
 		)
 		(property "Description" "quad 2-input NAND gate"
+			(at 218.44 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 218.44 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 218.44 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SN74ACT00D"
 			(at 218.44 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -7798,6 +7674,39 @@
 			)
 		)
 		(property "Description" "I2C Serial EEPROM, 128Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8"
+			(at 135.89 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 135.89 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 135.89 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "24LC128-I/SN"
 			(at 135.89 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -7962,7 +7871,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls00"
+		(property "Datasheet" "SN74ACT00D"
 			(at 218.44 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -7974,6 +7883,39 @@
 			)
 		)
 		(property "Description" "quad 2-input NAND gate"
+			(at 218.44 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 218.44 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 218.44 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SN74ACT00D"
 			(at 218.44 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -8037,7 +7979,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 269.24 83.82 270)
+		(at 257.81 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8047,7 +7989,7 @@
 		(dnp no)
 		(uuid "5055c210-e276-4434-96fd-b659c5fd37c0")
 		(property "Reference" "#PWR07"
-			(at 265.43 83.82 0)
+			(at 257.81 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8058,7 +8000,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 274.32 83.82 90)
+			(at 257.81 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8068,7 +8010,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 83.82 0)
+			(at 257.81 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8079,7 +8021,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 83.82 0)
+			(at 257.81 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8090,7 +8032,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 269.24 83.82 0)
+			(at 257.81 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8235,7 +8177,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "CL21B104KBCNNNC"
 			(at 35.56 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -8247,6 +8189,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 35.56 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 35.56 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 35.56 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL21B104KBCNNNC"
 			(at 35.56 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -8417,6 +8392,39 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 63.5 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 63.5 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SST39SF040-70-4C-NHE"
+			(at 63.5 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "29"
 			(uuid "612fe51e-666f-4e44-bbf5-23180af5e204")
 		)
@@ -8567,7 +8575,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "CL21B104KBCNNNC"
 			(at 114.3 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -8579,6 +8587,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 114.3 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 114.3 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 114.3 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL21B104KBCNNNC"
 			(at 114.3 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -8647,7 +8688,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls00"
+		(property "Datasheet" "SN74ACT00D"
 			(at 193.04 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -8659,6 +8700,39 @@
 			)
 		)
 		(property "Description" "quad 2-input NAND gate"
+			(at 193.04 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 193.04 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 193.04 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SN74ACT00D"
 			(at 193.04 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -8722,7 +8796,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 259.08 90.17 270)
+		(at 257.81 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8732,7 +8806,7 @@
 		(dnp no)
 		(uuid "ae50e347-4c53-478c-a83f-38ad97ad0d0e")
 		(property "Reference" "R1"
-			(at 259.08 90.17 90)
+			(at 257.81 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8742,7 +8816,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 257.556 92.964 90)
+			(at 260.604 76.454 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8752,7 +8826,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 259.08 88.392 90)
+			(at 256.032 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8762,8 +8836,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 259.08 90.17 0)
+		(property "Datasheet" "RC0805FR-0710KL"
+			(at 257.81 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8774,7 +8848,40 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 259.08 90.17 0)
+			(at 257.81 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 257.81 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 257.81 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-0710KL"
+			(at 257.81 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9012,6 +9119,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 256.54 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 256.54 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 256.54 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL21B104KBCNNNC"
 			(at 256.54 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -9315,7 +9455,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "CL21B104KBCNNNC"
 			(at 203.2 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -9327,6 +9467,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 203.2 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 203.2 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 203.2 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL21B104KBCNNNC"
 			(at 203.2 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -9551,7 +9724,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls00"
+		(property "Datasheet" "SN74ACT00D"
 			(at 187.96 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -9563,6 +9736,39 @@
 			)
 		)
 		(property "Description" "quad 2-input NAND gate"
+			(at 187.96 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 187.96 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 187.96 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SN74ACT00D"
 			(at 187.96 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -9747,7 +9953,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "CL21B105KBFNNNE"
 			(at 67.31 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -9759,6 +9965,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 67.31 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 67.31 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S5.1" ""
+			(at 67.31 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL21B105KBFNNNE"
 			(at 67.31 163.83 0)
 			(hide yes)
 			(show_name no)
