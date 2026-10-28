@@ -666,7 +666,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr allow_soldermask_bridges)
+		(attr exclude_from_pos_files exclude_from_bom dnp allow_soldermask_bridges)
 		(net_tie_pad_groups "1,2")
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
