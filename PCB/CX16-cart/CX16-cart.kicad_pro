@@ -161,7 +161,7 @@
         "min_through_hole_diameter": 0.25,
         "min_track_width": 0.15,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.6,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -525,7 +525,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.5,
+        "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       }
@@ -677,7 +677,7 @@
         "uuid": "e8c6cf3c-66c8-4c37-84a4-a1d8ccf50583"
       }
     ],
-    "used_designators": "JP2",
+    "used_designators": "H1,JP2,R1",
     "variants": []
   },
   "sheets": [
