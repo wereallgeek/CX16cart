@@ -4345,7 +4345,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "SN74ACT138D"
+		(property "Datasheet" "CD74ACT138M96"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4367,7 +4367,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74ACT138D"
+		(property "MPN" "CD74ACT138M96"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

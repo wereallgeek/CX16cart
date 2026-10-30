@@ -6654,7 +6654,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "SN74ACT138D"
+		(property "Datasheet" "CD74ACT138M96"
 			(at 229.87 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -6698,7 +6698,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74ACT138D"
+		(property "MPN" "CD74ACT138M96"
 			(at 229.87 129.54 0)
 			(hide yes)
 			(show_name no)
