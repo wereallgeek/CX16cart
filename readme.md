@@ -12,7 +12,7 @@ The OtterX is an X16 clone that is fully compatible with the X16 architecture.
 After I completed [construction of the computer the open-source way](https://wereallgeeks.wordpress.com/2026/09/17/completeotterx/), I looked around and didn't initially find an open-source cartridge solution; which is why I cam up with my own.
 To achieve this goal, I found a great lot of information on the [git of jkominek](https://github.com/jkominek) - he has a very useful [X16 expansion port & cartridge component/footprint library for KiCad 8](https://github.com/jkominek/x16expansion) that I imported in kicad 10; he also has the [basic design for a simple cartridge](https://github.com/jkominek/x16simplecart) in PDF format, a great head start to design my X16 cartridge.
 
-I started from that design,designed the PCB in surface mount with the idea of being able to purchase a lot of PCBs pre-assembled using PCBA services.
+I started from that and designed the PCB in surface mount with the idea of being able to purchase a lot of PCBs pre-assembled using PCBA services.
 
 I altered the footprint and routed the board by hand, keeping it 2-layer. I think I like the end result.
 
