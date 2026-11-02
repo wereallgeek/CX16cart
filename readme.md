@@ -17,8 +17,10 @@ I started from that design,designed the PCB in surface mount with the idea of be
 I altered the footprint and routed the board by hand, keeping it 2-layer. I think I like the end result.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wereallgeek/CX16cart/main/images/3d-blue-front.png">
+  <img src="https://github.com/wereallgeek/CX16cart/blob/main/images/3d-blue-front.png">
 </p>
+
+Altough not tester yet, the layout of the PCB should fit on a standard famicom cartridge shell.
 
 Disclaimer - After spending much time designing my own cart, I was pointed to [this open-source cartridge](https://gitlab.com/m00dawg/commander-x16-cartridges) from [m00dawg](https://gitlab.com/m00dawg)... who also encouraged and guided in this design along with [Wavicle](https://github.com/jburks) and Morphinejh on the X16 discord - thanks.
 
