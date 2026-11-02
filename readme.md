@@ -55,11 +55,10 @@ Cartridge binaries would be saved alongside the software and written directly on
 
 ### Copyright (C) 2026 Marsupial (wereallgeeks.wordpress.com) 
 
-This PCB Design is open hardware: you can redistribute it and/or modify it under the terms of the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0), as long as PCB attribution markings and silkscreen remains present on the final product.
 
-To view a copy of this license, visit creativecommons.org
+This PCB Design is free hardware: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation version 3,see [license](https://github.com/wereallgeek/CX16cart?tab=License-1-ov-file), as long as PCB attribution markings and silkscreen remains present on the final product.
 
-Commercial profitability is strictly prohibited under the terms of this license.
-This design is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE, or FUNCTIONALITY. 
+Commercial profitability is strictly prohibited
 
-See the CC BY-NC-SA 4.0 license details for more information.
+This design is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE,  or FUNCTIONALITY. 
+See the [License](https://github.com/wereallgeek/CX16cart?tab=License-1-ov-file) for more details.
