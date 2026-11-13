@@ -24,6 +24,9 @@ Altough not tester yet, the layout of the PCB should fit on a standard famicom c
 
 Disclaimer - After spending much time designing my own cart, I was pointed to [this open-source cartridge](https://gitlab.com/m00dawg/commander-x16-cartridges) from [m00dawg](https://gitlab.com/m00dawg)... who also encouraged and guided in this design along with [Wavicle](https://github.com/jburks) and Morphinejh on the X16 discord - thanks.
 
+### Shared project
+This PCB is available as a [shared project](https://www.pcbway.com/project/shareproject/CX_16_software_cartridge_73a51017.html) at PCBWay.
+The PCB has been tested as fully functional.
 
 ### Bill of Material
 
