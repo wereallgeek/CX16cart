@@ -55,6 +55,7 @@ The software is intended to be part of the [essential SD card](https://github.co
 
 Cartridge binaries would be saved alongside the software and written directly on the X16 hardware.
 
+More information can be obtained [on my blog](https://wereallgeeks.wordpress.com/2026/11/16/flashx16cart/)
 
 ### Copyright (C) 2026 Marsupial (wereallgeeks.wordpress.com) 
 
